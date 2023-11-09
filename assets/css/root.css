@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap');
+
+:root {
+    /* font-size */
+    --fs-36: 36px;
+    --fs-18: 18px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-35: 35px;
+    --fs-40: 40px;
+    --fs-44: 44px;
+    --fs-42: 42px;
+    --fs-48: 48px;
+    --fs-60: 60px;
+    --fs-62: 62px;
+    --fs-70: 70px;
+    /* font-weight */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-35 {
+    font-size: var(--fs-35);
+}
+
+.fs-42 {
+    font-size: var(--fs-42);
+}
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.fs-44 {
+    font-size: var(--fs-44);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-62 {
+    font-size: var(--fs-62);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+
+
+
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+.ff-Montserrat-Alternates{
+    font-family: 'Montserrat Alternates';
+}
+@media (min-width:768px) and (max-width:992px) {
+    :root {
+        --fs-36: 36px;
+        --fs-18: 18px;
+        --fs-22: 22px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-35: 35px;
+        --fs-42: 42px;
+        --fs-44: 44px;
+        --fs-42: 42px;
+        --fs-48: 48px;
+        --fs-60: 60px;
+        --fs-62: 62px;
+        --fs-70: 70px;
+    }
+   
+}
+@media (min-width:992px) {
+    .mt-200{
+        margin-top: 200px;
+    }
+    
+}
+@media (min-width:576px) and (max-width:768px) {
+    :root {
+        --fs-36: 36px;
+        --fs-18: 18px;
+        --fs-22: 22px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-35: 35px;
+        --fs-42: 42px;
+        --fs-44: 44px;
+        --fs-42: 42px;
+        --fs-48: 48px;
+        --fs-60: 60px;
+        --fs-62: 50px;
+        --fs-70: 56px;
+    }
+   
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-36: 36px;
+        --fs-18: 18px;
+        --fs-22: 22px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-35: 35px;
+        --fs-42: 42px;
+        --fs-44: 44px;
+        --fs-42: 35px;
+        --fs-48: 40px;
+        --fs-60: 50px;
+        --fs-62: 45px;
+        --fs-70: 50px;
+    }
+}
+@media (max-width:576px) {
+    .prevv{
+        background:transparent;
+        border: none;
+        position: absolute;
+        left: 34%;
+        bottom: 1%;
+    }
+    .nextt{
+        background:transparent;
+        border: none;
+        position: absolute;
+        right: 37%;
+        bottom: 1%;
+    }
+    .position-absoluteC {
+        width: 17%;
+        position: absolute;
+        top: 31%;
+        right: 5%;
+    }
+.position-absoluteE{
+    position: absolute;
+    right: -80%;
+}
+ .position-absoluteH{
+    position: absolute;
+    width: 400px;
+    top: 0;
+ } 
+ .position-absolute {
+    position: absolute;
+    top: -8%;
+    left: 38%;
+    width: 6%;
+}  
+.position-absoluteLL {
+    position: absolute;
+    left: 0;
+    bottom: 33%;
+    
+}
+.position-absoluteL{
+    position: absolute;
+    width: 20%;
+}
+.position-absolute4{
+    width: 30%;
+    position: absolute;
+  
+}
+.position-absolute3{
+    width: 30%;
+    position: absolute;
+   
+}
+.position-absolute2{
+    width: 30%;
+    position: absolute;
+ 
+}
+.position-absolute1{
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.here{
+    transform: translateY(20%);
+}
+}
+@media (max-width:768px) {
+    .position-absoluteLL {
+        position: absolute;
+        left: 4%;
+        bottom: 47%;
+        width: 11%;
+    }
+    .position-absolute4{
+        width: 45%;
+        position: absolute;
+       
+    }
+    .position-absolute3{
+        width: 45%;
+        position: absolute;
+      
+    }
+    .position-absolute2{
+        width: 45%;
+        position: absolute;
+       
+    }
+    .position-absolute1{
+        width: 45%;
+        position: absolute;
+        right: 10%;
+        top: 40%;
+    }
+    
+}
+@media (max-width:992px) {
+    .position-absoluteL {
+        position: absolute;
+        left: 9%;
+        top: 0%;
+        width: 15%;
+    }
+    .position-absoluteR {
+        position: absolute;
+        top: 21%;
+        right: 2%;
+        width: 33%;
+    }
+    .position-absoluteC {
+        position: absolute;
+        top: 23%;
+        right: 10%;
+        width: 7%;
+    }
+    .position-absoluteLL {
+        position: absolute;
+        left: 14%;
+        bottom: 76%;
+        width: 2%;
+    }
+    .position-absoluteL2 {
+        position: absolute;
+        top: 21%;
+        left: -2%;
+        width: 33%;
+    }
+    .position-absolute {
+        position: absolute;
+        top: -10%;
+        left: 38%;
+        width: 6%;
+    } 
+    .here{
+        transform: translateY(30%);
+    }
+    
+}
